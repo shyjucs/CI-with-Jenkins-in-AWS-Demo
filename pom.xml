@@ -50,4 +50,20 @@
             </plugin>
         </plugins>
     </build>
+    
+   <distributionmanagement>
+
+    <repository>
+      <id>test-repo</id>
+      <name>test-repo</name>
+      <url>http://34.93.48.172:8081/repository/test-repo/</url>
+    </repository>
+
+    <snapshotrepository>
+      <id>snapshot</id>
+      <name>snapshot</name>
+      <url>http://34.93.48.172:8081/repository/snapshot/</url>
+    </snapshotrepository>
+
+  </distributionmanagement>
 </project>
